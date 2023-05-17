@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="main.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <title>Home</title>
+</head>
+
+<body>
+
+    <section class="section1 flex justify-between">
+
+        <div class="container">
+            <header class="w-[100%] header">
+                <div class="ham" id="ham" style="z-index: 100;">
+<div class="line"></div>
+<div class="line my-[1rem]"></div>
+<div class="line"></div>
+                </div>
+                <nav id="navbar" class=" flex justify-end items-center mt-[2rem] mr-[6.5rem]">
+                    <button href="" 
+                        class="hover rounded-[.5rem] text-white text-[1.6rem] leadng-[2.4rem] tracking-[8%] w-[10rem] h-[5rem] bg-[#2A163F] mr-[7.6rem]">
+                    <div class="div">Home</button>
+                    <a href="./services.html"
+                        class="rounded-[.5rem] mr-[10rem] text-[#2A163F] text-[1.6rem] leadng-[2.4rem] tracking-[8%] ">Services</a>
+                    <a href="./about.html"
+                        class="rounded-[.5rem] mr-[10rem] text-[#2A163F] text-[1.6rem] leadng-[2.4rem] tracking-[8%] ">About</a>
+                    <a href="./contact.html"
+                        class="rounded-[.5rem] mr-[6.5rem] text-[#2A163F] text-[1.6rem] leadng-[2.4rem] tracking-[8%] ">Contact</a>
+                    <div class="flex justify-start items-center w-[48.9rem] h-[5rem] rounded-[.5rem] bg-[#0000001A]">
+                        <img src="./img/search.png" alt="" class="w-[1.8rem] h-[1.8rem] mx-[2rem]">
+                        <input type="text" name="" id="" placeholder="Search"
+                            class="w-[80%] text-[1.6rem] text-[#09050D99] bg-transparent border-[none]"
+                            style="outline: none; ">
+                    </div>
+                    <button href=""
+                        class="hover rounded-[.5rem] text-white text-[1.6rem] leadng-[2.4rem] tracking-[8%] w-[17.4rem] h-[6rem] bg-[#2A163F] ml-[6.5rem] "><div class="div">Order
+                        Now</button>
+                </nav>
+                
+            </header>
+            <header class="w-[100%] headermb">
+               <div>
+                <img src="./img/ham.png" alt="" class="absolute right-[3%] top-[5%]" style="z-index: 101;" id="ham" onclick="Navbar()">
+               </div>
+                <nav id="navbarmb" class="bg-white activeNav pb-[5rem] activeNav absolute w-[100%]  pt-[10rem] flex-col flex justify-end items-center mt-[2rem] mr-[6.5rem]" style="z-index: 100;" >
+                    <div class="flex mb-[5rem] justify-start items-center w-[48.9rem] h-[5rem] rounded-[.5rem] bg-[#0000001A] border-b-[1px] border-[#09050D99]">
+                        <img src="./img/search.png" alt="" class="w-[1.8rem] h-[1.8rem] mx-[2rem]">
+                        <input type="text" name="" id="" placeholder="Search"
+                            class="w-[80%] text-[1.6rem] text-[#09050D99] bg-transparent border-[none]"
+                            style="outline: none; ">
+                    </div>
+                    <button href="" 
+                        class="hover mb-[5rem] rounded-[.5rem] text-white text-[1.6rem] leadng-[2.4rem] tracking-[8%] w-[10rem] h-[5rem] bg-[#2A163F]">
+                    <div class="div">Home</button>
+                    <a href="./services.html"
+                        class="rounded-[.5rem] mb-[5rem] text-[#2A163F] text-[1.6rem] leadng-[2.4rem] tracking-[8%] ">Services</a>
+                    <a href="./about.html"
+                        class="rounded-[.5rem] mb-[5rem] text-[#2A163F] text-[1.6rem] leadng-[2.4rem] tracking-[8%] ">About</a>
+                    <a href="./contact.html"
+                        class="rounded-[.5rem] mb-[5rem] text-[#2A163F] text-[1.6rem] leadng-[2.4rem] tracking-[8%] ">Contact</a>
+                   
+                    <button href=""
+                        class="hover rounded-[.5rem] text-white text-[1.6rem] leadng-[2.4rem] tracking-[8%] w-[17.4rem] h-[6rem] bg-[#2A163F] "><div class="div">Order
+                        Now</button>
+                        <img src="./img/logoNav.png" class="mt-[20rem] mb-[10rem]" alt="">
+                </nav>
+                
+            </header>
+            <div class="flex w-[142rem] mt-[7rem] ml-[17.7rem]">
+                <div class="mr-[21.2rem] ml-[1.6rem]">
+                    <h2 class="text-[6rem] leading-[10.5rem]  text-[#09050D] font-[400]"
+                        style="text-transform: uppercase;">
+                        Precision Meets <span class="font-[600]"> <br>Creativity</span>
+                    </h2>
+                    <p class="text-[2rem] w-[78.5rem] leading-[3rem]  text-[#09050D] font-[400]">Explore SPEKS The
+                        Embroiderers, High-Quality Services and Customizable Products for Your Next Marketing Activity
+                        or Event!</p>
+                </div>
+                <div>
+                    <img src="./img/1.png" class="w-[42.2rem] h-[31.1rem]" alt="">
+                </div>
+            </div>
+            <div class="flex w-[142rem]  mt-[10rem] ml-[7.9rem]">
+                <div>
+                    <img src="./img/2.png" class="w-[41.6rem] h-[31.1rem]" alt="">
+                </div>
+                <div class="ml-[10.7rem]">
+
+                    <p class="text-[3rem] mt-[4.3rem] w-[88.7rem] leading-[4.5rem]  text-[#09050D] font-[400]">Explore
+                        SPEKS The Exceptional <span class="font-[600]"> Embroidery Digitizing </span> and<span
+                            class="font-[600]"> Graphic Design</span> Services to Meet Your Every Need</p>
+                            <button href=""
+                            class="hover rounded-[.5rem] text-white text-[1.6rem] leadng-[2.4rem] tracking-[8%] w-[17.4rem] h-[6rem] bg-[#2A163F] mt-[2rem] "><div class="div">Contact Us</button>
+                </div>
+
+
+            </div>
+            <div class="flex w-[142rem]    relative top-[-10rem] mb-[-10rem] ml-[17.7rem] ">
+
+                <div class="ml-[10.7rem] flex mr-[23.5rem] items-end">
+       <a href="" class="mr-[6rem] text-[2rem] leading-[4rem] text-[#0C080F] "><img src="./img/fb.png" class="mr-[1rem] w-[4rem] h-[4rem]" alt="">Facebook</a>
+       <a href="" class="mr-[6rem] text-[2rem] leading-[4rem] text-[#0C080F] "><img src="./img/ig.png" class="mr-[1rem] w-[4rem] h-[4rem]" alt=""> Instagram</a>
+       <a href="" class="mr-[6rem] text-[2rem] leading-[4rem] text-[#0C080F] "><img src="./img/yt.png" class="mr-[1rem] w-[4rem] h-[4rem]" alt="">Youtube</a>
+
+                </div>
+                <div>
+                    <img src="./img/3.png" class="w-[41.6rem] h-[31.1rem]" alt="">
+                </div>
+
+            </div>
+        </div>
+        <div class="w-[17.7rem] h-[108.1rem] sidebar" style="background: url('./img/side.png'); background-size:cover; background-position: center;">
+
+        </div>
+    </section>
+    
+    
+    <!-- SECTION 2  -->
+    <section id="sec2" class="w-[100%] pt-[10.1rem] h-[115.3rem]" style="background: url('./img/sec2.png'); background-size: cover; background-position: center;">
+        <div class="flex w-[150rem] ml-[28rem] m-auto justify-between">
+            <div>
+                <p class="text-[2rem] leading-[3rem]  text-[#fff]">
+                    <span class="text-[#FFFFFF80]">02 / </span>About
+                </p>
+                <h2 class="text-[8rem] leading-[12rem]  text-[#fff] font-[400]"
+                style="text-transform: uppercase;">
+                We are<span class="font-[600]"> <br>Creatives</span>
+            </h2>
+            <p class="text-[6rem] leading-[9rem] font-[500] w-[57.5rem] mt-[34.7rem]  text-[#fff]">
+                Looking for killed Professionals to Deliver Exceptional Results? 
+            </p>
+            </div>
+            <div>
+                <img src="./img/sec2L.png" alt="" class="w-[87.9rem] h-[54.7rem]">
+                <ul class="w-[82rem] mt-[3rem]">
+                    <li class="text-[1.8rem] leading-[2.7rem]  text-[#fff] mb-[2rem]">
+                        Our team comprises of skilled and experienced professionals, delivering exceptional results to meet all your needs.
+                    </li>
+                    <li class="text-[1.8rem] leading-[2.7rem]  text-[#fff] mb-[2rem]">
+                        At SPEKS The Embroiderers, our mission is to deliver high-quality services that always exceed our customers' expectations and make them happy with the results.
+                    </li>
+                    <li class="text-[1.8rem] leading-[2.7rem]  text-[#fff] mb-[2rem]">
+                        Looking for quick and efficient production and delivery? Our unbeatable production times, including same-day delivery, ensure your products are delivered to you in no time!
+                    </li>
+                    <li class="text-[1.8rem] leading-[2.7rem]  text-[#fff] mb-[2rem]">
+                        Make your next marketing activity or event a memorable one with our customizable and branding-ready products.
+                    </li>
+                    <li class="text-[1.8rem] leading-[2.7rem]  text-[#fff] mb-[2rem]">
+                        Looking for professional graphic design services? We specialize in producing high-quality Adobe EPS, AI, PSD and Corel Draw CDR files to bring your vision to life.
+                    </li>
+                    <li class="text-[1.8rem] leading-[2.7rem]  text-[#fff]">
+                        Our world-class services are trusted by customers worldwide, delivering unparalleled quality and satisfaction.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- section3  -->
+<section class="hidden bg-[#010405]" >
+<div style="background: url('./img/sec3.png'); background-position: center; background-size: cover;"  class="w-[100%] h-[45.5rem]">
+<div class="flex h-[100%] justify-end items-center pr-[16rem] pt-[10rem]">
+    <div class="flex flex-col justify-center items-center" >
+<p class="text-[2rem] text-[white]">
+    Projects
+</p>
+<p class="text-[7rem] text-[white] leading-[10.5rem] font-[600]" id="customers">
+    10,000+
+</p>
+<p class="text-[2rem] text-[white]">
+Completed
+</p>
+
+    </div>
+    <div class="mx-[18.7rem] flex flex-col justify-center items-center" >
+<p class="text-[2rem] text-[white]">
+    Customers
+</p>
+<p class="text-[7rem] text-[white] leading-[10.5rem] font-[600]" id="projects">
+500+
+</p>
+<p class="text-[2rem] text-[white]">
+    Satisfied
+</p>
+
+    </div>
+    <div class="flex flex-col justify-center items-center" >
+<p class="text-[2rem] text-[white]">
+    Five Star
+</p>
+<p class="text-[7rem] text-[white] leading-[10.5rem] font-[600]" id="reviews">
+    200+
+</p>
+<p class="text-[2rem] text-[white]">
+Reviews
+</p>
+
+    </div>
+</div>
+</div>
+</section>
+<section class="section3mb flex flex-col justify-center items-center">
+<div class="flex">
+    <div class="m-[3rem] heading">
+    </div>
+    <div class="m-[3rem] text flex justify-center items-center flex-col">
+<p class="text-[3.5rem] text-[white] font-[400] text-center">Project</p>
+<h2 class="text-[5.5rem] text-[white] font-[600] text-center">10,000+</h2>
+<p class="text-[3.5em] text-[white] font-[400] text-center">Completed</p>
+    </div>
+</div>
+<div class="flex">
+    <div class="m-[3rem] text flex justify-center items-center flex-col">
+        <p class="text-[3.5rem] text-[white] font-[400] text-center">Customers</p>
+        <h2 class="text-[5.5rem] text-[white] font-[600] text-center">500+</h2>
+        <p class="text-[3.5em] text-[white] font-[400] text-center">Satisfied</p>
+            </div>
+    <div class="m-[3rem] text flex justify-center items-center flex-col">
+<p class="text-[3.5rem] text-[white] font-[400] text-center">Five Star</p>
+<h2 class="text-[5.5rem] text-[white] font-[600] text-center">200+</h2>
+<p class="text-[3.5em] text-[white] font-[400] text-center">Reviews</p>
+    </div>
+</div>
+</section>
+<!-- section4  -->
+<section class="section4 h-[112.6rem] w-[100%] " style="background: url('./img/sec4.png');">
+    <div class="top flex m-auto w-[156.7rem] mt-[10rem]">
+<div>
+    <p class="text-[2rem] leading-[3rem]  text-[#2A163F]">
+        <span class="text-[#01040580]">02 / </span>Services
+    </p>
+    <h2 class="text-[8rem] leading-[12rem]  text-[##2A163F] font-[400]"
+    style="text-transform: uppercase;">
+    Providing Visual<span class="font-[600]"> <br>Services</span>
+</h2>
+</div>
+
+<div class="ml-[4.9rem]">
+    <p class="w-[80.7rem]  text-[3rem] leading-[4.5rem]  text-[#2A163F]">
+        "Our focus is on transforming your ideas into outstanding and practical products. We take great pride in delivering services that exceed our clients' expectations.”
+    </p>
+    <div class="flex mt-[2rem] ">
+    <div class="flex arrow">
+    <img src="./img/sec4arrow.png" alt="" class="arrowimg flex">
+    <img src="./img/aoorwmb.png" class="hidden arrowMb" alt="">
+    <p class="text-[1.2rem] leading-[2.4rem] font-[600] text-[#2A163F]" style="letter-spacing: 0.515em;">See our <br>
+        Services</p>
+</div>
+<button href=""
+class="hover rounded-[.5rem] text-white text-[1.6rem] leadng-[2.4rem] tracking-[8%] w-[23rem] h-[5rem] bg-[#2A163F] ml-[10rem]"><div class="div">See Our Samples</button>
+    </div>
+</div>
+</div>
+
+
+
+<div class="services flex justify-center relative top-[25rem]">
+    <div  class="serv  relative" onclick="Services('digitizing')" id="digitizing" style="background: url('./img/service.png'); background-position: center; background-size: cover; cursor: pointer;">
+
+    </div>
+    <div class="serv mx-[6rem] relative" onclick="Services('vector')" id="vector" style="background: url('./img/serv2.png'); background-position: center; background-size: cover; cursor: pointer;">
+
+    </div>
+    <div class="serv  relative" id="custom" onclick="Services('custom')" style="background: url('./img/serv3.png'); background-position: center; background-size: cover; cursor: pointer;">
+    </div>
+</div>
+<div class="services mt-[20rem] servicesmb flex justify-center items-center  flex-col" >
+    <div  class="serv  " onclick="ServicesMb('digitizingmb')" id="digitizingmb" style="background: url('./img/servcies1Mb.png'); background-position: center !important; background-size: cover !important; cursor: pointer;">
+
+    </div>
+    <div class="serv my-[6rem] " onclick="ServicesMb('vectormb')" id="vectormb" style="background: url('./img/ser2Mb.png'); background-position: center; background-size: cover; cursor: pointer;">
+
+    </div>
+    <div class="serv  " id="custommb" onclick="ServicesMb('custommb')" style="background: url('./img/ser3Mb.png'); background-position: center; background-size: cover; cursor: pointer;">
+    </div>
+</div>
+
+</section>
+
+
+<!-- section5  -->
+<section class="section5">
+<div class="container services flex pt-[10rem] w-[157.6rem] m-auto">
+    <div>
+        <p class="text-[2rem] leading-[3rem]  text-[#2A163F]">
+            <span class="text-[#01040580]">04 / </span>Testimonials
+        </p>
+        <h2 class="text-[8rem] leading-[12rem]  text-[##2A163F] font-[400]"
+        style="text-transform: uppercase;">
+        Check Out Our<span class="font-[600]"> <br>Reviews</span>
+        <p class="text-[3rem] leading-[4.5rem] mt-[2rem]  text-[#2A163F]">
+            Discover What Our Customers are Saying    
+        </p>
+    </h2>
+    </div>
+    <div class="ml-[11.5rem] swiper min-w-[78.1rem] relative">
+        <div class="flex items-center">
+            <img src="./img/reviews.png" class="w-[9.75rem] h-[1.2rem]" alt="">
+            <p class="ml-[1rem] text-[1.2rem] uppercase leading-[2.4rem] font-[600] text-[#2A163F]" style="letter-spacing: 0.515em;">Scroll to see more</p>
+        </div>
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-wrapper  flex " id="slider" style="cursor: pointer;">
+            <div class="swiper-slide">
+                <h2 class="flex items-center text-[2rem] font-[500] leading-[3rem] text-[#2A163F]">Debbie Orchad <img src="./img/verif.png" class="ml-[.5rem] w-[1.2rem] h-[1.2rem]" alt=""></h2>
+                <img src="./img/stars.png" class="w-[12rem] h-[2.1rem] mt-[1rem] mb-[2rem]" alt="">
+                <p class="text-[1.8rem] font-[500] leading-[2.7rem] w-[78.1rem] text-[#2A163F]">I recently had the pleasure of using SPEKS for digitization and vectorization services, and I must say, they exceeded my expectations every time! Not only do they offer a fantastic selection of services to choose from, but the quality of their work is top-notch. The team at SPEKS is incredibly friendly and easy to work with, which made the whole experience that much better. Overall, I highly recommend SPEKS for anyone in need of digital design services. You won't be disappointed!
+                </p>
+            </div>
+            <div class="swiper-slide">
+                <h2 class="flex items-center text-[2rem] font-[500] leading-[3rem] text-[#2A163F]">Debbie Orchad <img src="./img/verif.png" class="ml-[.5rem] w-[1.2rem] h-[1.2rem]" alt=""></h2>
+                <img src="./img/stars.png" class="w-[12rem] h-[2.1rem] mt-[1rem] mb-[2rem]" alt="">
+                <p class="text-[1.8rem] font-[500] leading-[2.7rem] w-[78.1rem] text-[#2A163F]">I recently had the pleasure of using SPEKS for digitization and vectorization services, and I must say, they exceeded my expectations every time! Not only do they offer a fantastic selection of services to choose from, but the quality of their work is top-notch. The team at SPEKS is incredibly friendly and easy to work with, which made the whole experience that much better. Overall, I highly recommend SPEKS for anyone in need of digital design services. You won't be disappointed!
+                </p>
+            </div>
+            <div class="swiper-slide">
+                <h2 class="flex items-center text-[2rem] font-[500] leading-[3rem] text-[#2A163F]">Debbie Orchad <img src="./img/verif.png" class="ml-[.5rem] w-[1.2rem] h-[1.2rem]" alt=""></h2>
+                <img src="./img/stars.png" class="w-[12rem] h-[2.1rem] mt-[1rem] mb-[2rem]" alt="">
+                <p class="text-[1.8rem] font-[500] leading-[2.7rem] w-[78.1rem] text-[#2A163F]">I recently had the pleasure of using SPEKS for digitization and vectorization services, and I must say, they exceeded my expectations every time! Not only do they offer a fantastic selection of services to choose from, but the quality of their work is top-notch. The team at SPEKS is incredibly friendly and easy to work with, which made the whole experience that much better. Overall, I highly recommend SPEKS for anyone in need of digital design services. You won't be disappointed!
+                </p>
+            </div >
+        </div>
+        
+    </div>
+</div>
+</section>
+
+
+<footer class="mt-[30rem]">
+    <img src="./img/logobt.png" class="m-auto w-[156.7rem] h-[12.7rem]" alt="">
+
+
+    <div class="middle flex w-[156.6rem] justify-between m-auto items-center mt-[6rem]">
+        <div>
+            <p class="text-[1.8rem] leading-[2.7rem] flex items-center text-[#010405]"><img src="./img/ph.png" class="w-[3rem] mr-[3rem]" alt=""> 0208 205 667</p>
+            <p class="text-[1.8rem] leading-[2.7rem] flex items-center mt-[2rem] text-[#010405]"><img src="./img/mail.png" class="w-[3rem] mr-[3rem]" alt=""> writeyouremail@gmail.com</p>
+        </div>
+        <div class="flex">
+            <a href=""><img src="./img/fb.png" class="w-[4rem]" alt=""></a>
+            <a href=""><img src="./img/ig.png" class="mx-[12rem] w-[4rem]" alt=""></a>
+            <a href=""><img src="./img/yt.png" class="w-[4rem]" alt=""></a>
+        </div>
+        <div class="flex">
+            <div class="flex flex-col items-center justify-center">
+                <a href="" class="text-[1.8rem] leading-[2.7rem] mb-[2rem] text-[#2A163F]">Privacy Policy</a>
+                <a href="" class="text-[1.8rem] leading-[2.7rem] text-[#2A163F]">About</a>
+            </div>
+            <div class="ml-[6rem] flex flex-col items-center justify-center">
+                <a href="" class="text-[1.8rem] leading-[2.7rem] mb-[2rem] text-[#2A163F]">Terms & Conditions</a>
+                <a href="" class="text-[1.8rem] leading-[2.7rem] text-[#2A163F]">Contact</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="bottom flex w-[156.6rem] justify-between m-auto mt-[10rem]"  >
+        <div>
+            <p class="text-[2rem] leading-[3rem] uppercase text-[#2A163F]">
+                Get Latest Updates
+            </p>
+            <h2 class="text-[8rem] leading-[12rem]  text-[##2A163F] font-[400]"
+            style="text-transform: uppercase;">
+            Subscribe<span class="font-[600]"> <br>Newsletter</span>
+           
+        </h2>
+        </div>
+
+        <form action="" class="flex flex-col justify-center items-center">
+            <div class="flex ">
+                <div class="flex justify-start items-center pl-[3rem] w-[33.2rem] h-[5rem] rounded-[.5rem] bg-[#0000001A]">
+                   
+                    <input type="text" name="" id="" placeholder="Your Name"
+                        class="w-[80%] text-[1.6rem] text-[#09050D99] bg-transparent border-[none]"
+                        style="outline: none; ">
+                </div>
+                <div class=" ml-[4rem] flex justify-start items-center pl-[3rem] w-[33.2rem] h-[5rem] rounded-[.5rem] bg-[#0000001A]">
+                   
+                    <input type="text" name="" id="" placeholder="Phone Number (Optional)"
+                        class="w-[80%] text-[1.6rem] text-[#09050D99] bg-transparent border-[none]"
+                        style="outline: none; ">
+                </div>
+            </div>
+            <div class=" mt-[2rem] mb-[2.5rem] flex justify-start items-center pl-[3rem] w-[70.4rem] h-[5rem] rounded-[.5rem] bg-[#0000001A]">
+                   
+                <input type="text" name="" id="" placeholder="Phone Number (Optional)"
+                    class="w-[80%] text-[1.6rem] text-[#09050D99] bg-transparent border-[none]"
+                    style="outline: none; ">
+                    
+            </div>
+            <button href=""
+                        class="rounded-[.5rem] text-white text-[1.6rem] hover leadng-[2.4rem] tracking-[8%] w-[17.4rem] h-[5rem] bg-[#010405] mr-[7.6rem]"><div class="div">Subscribe</button>
+        </form>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<script>
+
+
+    const Customers = document.getElementById("customers")
+    const projects = document.getElementById("projects")
+    const Reviews = document.getElementById("reviews")
+    
+
+
+    const digitizing = document.getElementById("digitizing")
+    const vector = document.getElementById("vector")
+    const custom = document.getElementById("custom")
+
+  const Services = (id)=>{
+      document.getElementById("digitizing").style.backgroundImage = "url('./img/service.png')"
+if(window.innerWidth > 565){
+
+       if(id == "digitizing"){
+        document.getElementById("digitizing").style.width = "90.9rem" 
+        document.getElementById("vector").style.backgroundImage = "url('./img/serv2.png')"
+        document.getElementById("custom").style.backgroundImage = "url('./img/serv3.png')"
+        document.getElementById("vector").style.width = "10rem"
+        document.getElementById("custom").style.width = "10rem"
+    }else if(id == "vector"){
+        document.getElementById("vector").style.backgroundImage = "url('./img/service2.png')"
+        document.getElementById("vector").style.width = "90.9rem" 
+        document.getElementById("digitizing").style.backgroundImage = "url('./img/serv1.png')"
+        document.getElementById("custom").style.backgroundImage = "url('./img/serv3.png')"
+        document.getElementById("digitizing").style.width = "10rem"
+        document.getElementById("custom").style.width = "10rem"
+    }else{
+        document.getElementById("custom").style.backgroundImage = "url('./img/service3.png')"
+        document.getElementById("custom").style.width = "90.9rem" 
+        document.getElementById("digitizing").style.backgroundImage = "url('./img/serv1.png')"
+        document.getElementById("vector").style.backgroundImage = "url('./img/serv2.png')"
+        document.getElementById("digitizing").style.width = "10rem"
+        document.getElementById("vector").style.width = "10rem"
+    }
+}else if(window.innerWidth <= 565){
+    if(id == "digitizing"){
+        console.log(document.getElementById("digitizing").style.width)
+        document.getElementById("digitizing").style.width = "60rem" 
+        document.getElementById("vector").style.backgroundImage = "url('./img/serv2.png')"
+        document.getElementById("custom").style.backgroundImage = "url('./img/serv3.png')"
+        document.getElementById("vector").style.width = "6rem "
+        document.getElementById("custom").style.width = "6rem"
+    }else if(id == "vector"){
+        document.getElementById("vector").style.backgroundImage = "url('./img/service2.png')"
+        document.getElementById("vector").style.width = "60rem" 
+        document.getElementById("digitizing").style.backgroundImage = "url('./img/serv1.png')"
+        document.getElementById("custom").style.backgroundImage = "url('./img/serv3.png')"
+        document.getElementById("digitizing").style.width = "6rem"
+        document.getElementById("custom").style.width = "6rem"
+    }else{
+        document.getElementById("custom").style.backgroundImage = "url('./img/service3.png')"
+        document.getElementById("custom").style.width = "60rem" 
+        document.getElementById("digitizing").style.backgroundImage = "url('./img/serv1.png')"
+        document.getElementById("vector").style.backgroundImage = "url('./img/serv2.png')"
+        document.getElementById("digitizing").style.width = "6rem"
+        document.getElementById("vector").style.width = "6rem"
+    }
+}
+
+}
+
+const ServicesMb = (id)=>{
+      document.getElementById("digitizingmb").style.background = "url('./img/servcies1Mb.png')"
+
+
+       if(id == "digitizingmb"){
+        document.getElementById("digitizingmb").style.height = "85rem" 
+        document.getElementById("vectormb").style.background = "url('./img/ser2Mb.png')"
+        document.getElementById("custommb").style.background = "url('./img/ser3Mb.png')"
+        document.getElementById("vectormb").style.height = "9rem"
+        document.getElementById("custommb").style.height = "9rem"
+    }else if(id == "vectormb"){
+        document.getElementById("vectormb").style.background = "url('./img/services2Mb.png')"
+        document.getElementById("vectormb").style.height = "85rem" 
+        document.getElementById("digitizingmb").style.background = "url('./img/ser1Mb.png')"
+        document.getElementById("custommb").style.background = "url('./img/ser3Mb.png')"
+        document.getElementById("digitizingmb").style.height = "9rem"
+        document.getElementById("custommb").style.height = "9rem"
+    }else{
+        document.getElementById("custommb").style.background = "url('./img/services3Mb.png')"
+        document.getElementById("custommb").style.height = "85rem" 
+        document.getElementById("digitizingmb").style.background = "url('./img/ser1Mb.png')"
+        document.getElementById("vectormb").style.background = "url('./img/ser2Mb.png')"
+        document.getElementById("digitizingmb").style.height = "9rem"
+        document.getElementById("vectormb").style.height = "9rem"
+    }
+
+
+}
+let nav = false
+
+
+const Navbar = ()=>{
+    document.getElementById("navbarmb").classList.toggle("activeNav")
+    console.log(document.getElementById("navbarmb").classList)
+}
+ const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  
+});
+
+
+const navbar = document.getElementById("navbar")
+const ham = document.getElementById("ham")
+ham.addEventListener("click",  ()=>{
+  navbar.classList.toggle("activenav")
+})
+
+
+</script>
+</body>
+
+</html>
