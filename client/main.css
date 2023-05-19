@@ -32,6 +32,9 @@ html{
     height: 71.9rem;
 
 }
+.SamplesMb{
+    display: none;
+}
 /* .parent .w-\[100\%\] .flex{
     display: none;
 }
@@ -57,9 +60,14 @@ html{
     top: 0 ;
     transition: all 0.3s ease-in-out;
 }
-
+.samplesMb{
+    display: none;
+}
 .activeNav {
-    top: -155rem !important;
+    top: -200rem !important;
+}
+.SamplebtnMb{
+    display: none ;
 }
 @media screen and (max-width : 1775px) {
     html{
@@ -97,7 +105,12 @@ html{
     }
 }
 @media screen and (max-width : 768px) {
-    
+    .Samplebtn{
+        display: none !important;
+    }
+    .SamplebtnMb{
+        display: flex;
+    }
 .header{
     display: none;
 }
@@ -112,8 +125,9 @@ html{
     }
     .container .w-\[142rem\]{
         margin-left: 0 ;
-        width: auto;
+        width: 100%;
         justify-content: center;
+        margin-top: 13rem;
     }
     .sidebar{
         display: none;
@@ -137,6 +151,9 @@ html{
     }
 .servicesmb{
     display: flex !important;
+}
+.section3mb{
+display: none;
 }
     .section3mb .heading{
         width: 40rem;
@@ -202,7 +219,8 @@ html{
     width: 475px;
 }
 footer {
-    margin-top: 0;
+    margin-top: 0 !important;
+    padding-bottom: 8rem;
 }
 footer .bottom ,
 footer .middle {
@@ -210,7 +228,41 @@ footer .middle {
     align-items: center;
     flex-direction: column;
 }
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,700);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
 
+body {
+	/* background: #40E0D0; */
+}
+
+/*/ start count stats /*/
+
+section#counter-stats {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+.stats {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.swiper{
+    height: auto !important;
+    margin-bottom: 15rem !important;
+}
+.swiper .w-\[78\.1rem\]{
+    width: 100% !important;
+}
+.stats .fa {
+  color: #008080;
+  font-size: 60px;
+}
+
+/*/ end count stats /*/
 
 .aboutSec4 .top .ml-\[17\.4rem\],
 .aboutSec4 .top .ml-\[15\.4rem\]{
@@ -294,6 +346,27 @@ justify-content: flex-start;
 }
 .sec4Order form .flex button{
     margin-left: 0;
+}
+
+.Samples{
+    display: none !important;
+}
+.sec2Sample .flex{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.samplesMb{
+    display: flex;
+}
+.Samplebtn{
+    display: none;
+}
+.section3{
+    display: none;
+}
+.section3mb{
+    display: flex;
 }
 }
 .container{
@@ -379,6 +452,30 @@ justify-content: flex-start;
    .sec4Contact .top{
     align-items: center;
    }
+   .container .w-\[142rem\]{
+justify-content: space-around;   
+}
+.sec2Sample {
+    padding-left: 3rem;
+    height: auto !important;
+}
+.sec2Sample .SamplebtnMb {
+    justify-content: flex-start;
+}
+.sec2Sample p {
+    width: 90%;
+}
+.sec2Sample .w-\[156\.7rem\]{
+    align-items: flex-start;
+}
+.samplesMb {
+    justify-content: flex-start;
+    margin-left: 0;
+}
+.sec2Sample .ml-\[18rem\] {
+    margin-left: 0;
+}
+
 }
 footer .middle div{
     margin: 2rem 0;
