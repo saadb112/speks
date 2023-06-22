@@ -15,6 +15,7 @@ html{
 .services .serv{
     width: 10rem;
     height: 50rem;
+    transition: all .1s ease-in;
 }
 .services .serv:nth-child(1){
     width: 90.9rem;
@@ -50,6 +51,9 @@ html{
     top: 0;
     transition: all 0.3s ease-in-out;
 }
+.section3mb {
+    display: none;
+}
 .header{
     display: flex;
 }
@@ -68,6 +72,17 @@ html{
 }
 .SamplebtnMb{
     display: none ;
+}
+#navbar a{
+    background: white;
+    transition: all .3s ease-in;
+}
+#navbar a:hover{
+    color: white;
+    background: linear-gradient(269.67deg, #2A163F 0%, #09050D 100%);
+}
+.lines{
+    display: none;
 }
 @media screen and (max-width : 1775px) {
     html{
@@ -121,7 +136,7 @@ html{
     .container{
         width: 100% !important;
         max-width: 100% !important;
-        padding-top: 10rem;
+        padding-top: 4rem;
     }
     .container .w-\[142rem\]{
         margin-left: 0 ;
@@ -200,9 +215,15 @@ display: none;
         justify-content: space-between;
         margin-left: 0;
     }
-    .section4 .top div:nth-child(2) .mt-\[2rem\] button{
+
+    .section4 .top div:nth-child(2) .mt-\[2rem\] a{
         margin-left: 0;
     }
+    /* .section4 {
+        background: url("./img/servicesmbbg.png") !important;
+        background-size: cover;
+        backgroundpo
+    } */
     .section4 .services:nth-child(2){
         display: none;
     }
@@ -228,6 +249,7 @@ footer .middle {
     align-items: center;
     flex-direction: column;
 }
+
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,700);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
 
@@ -383,12 +405,18 @@ justify-content: flex-start;
         margin-right: 7.2rem;
     }
     .container .w-\[142rem\] h2{
-        line-height: 5.5rem;
-        font-size: 5rem;
+        line-height: 7.5rem;
+        font-size: 7rem;
     }
-    .container .w-\[142rem\] p{
+    .container .w-\[142rem\]:nth-child(4) p{
+        width: 62.5rem;
+        font-size: 4rem;
+
+    }
+        .container .w-\[142rem\] p{
         line-height: 3rem;
-        width: 42.5rem;
+        width: 45.5rem;
+
     }
     .container .ml-\[10\.7rem\] {
         margin-left: 3rem;
@@ -397,9 +425,13 @@ justify-content: flex-start;
         line-height: 4rem;
         margin-top: 0;
     }
-    .container .w-\[142rem\] .h-\[31\.1rem\]{
-        width: 18.2rem;
+    .container .w-\[142rem\] .h-\[31\.1rem\]{ 
+        width: 24.2rem;
         height: 17.1rem;
+    
+    }
+    .lines{
+        display: flex;
     }
     .container .w-\[142rem\] .items-end{
         margin-right: 0.5rem;
@@ -407,10 +439,19 @@ justify-content: flex-start;
     }
     .container .w-\[142rem\]:nth-last-child(1){
         margin-top: 10rem;
+        align-items: center;
+        justify-content: space-around;
     }
-
+    .container .w-\[142rem\] .items-end {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .container .w-\[142rem\] .items-end .leading-\[4rem\] {
+        display: flex;
+        margin-bottom: 1rem;
+    }
     #sec2 .flex {
-        margin-left: 3rem;
+        margin-left: 6rem;
         
     }
     #sec2 .flex h2 {
@@ -453,7 +494,7 @@ justify-content: flex-start;
     align-items: center;
    }
    .container .w-\[142rem\]{
-justify-content: space-around;   
+    justify-content: center; 
 }
 .sec2Sample {
     padding-left: 3rem;

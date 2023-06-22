@@ -105,13 +105,13 @@
 
     <div class="flex  bg-[white] flex-col">
 <div class="w-[127.3rem] h-[49.2rem] rounded-[1rem] ">
-<form action="" class="bg-[white] flex flex-col justify-center items-center pt-[3.7rem]">
+<form action="/upload" method="POST" enctype="multipart/form-data" class="bg-[white] flex flex-col justify-center items-center pt-[3.7rem]">
    
     
     <div class="flex ">
         <div class="mr-[5rem]">
             <div class="w-[32.9rem] h-[32.9rem] border-[.1rem] border-[#09050D99] bg-[#01040505] relative">
-                <input type="file" class="w-[100%] h-[100%]" placeholder="" style="opacity: 0;" >
+                <input type="file" name="image" class="w-[100%] h-[100%]" placeholder="" style="opacity: 0;" >
                 <img src="./img/upload.png" alt="" class="w-[4rem] h-[4rem] absolute top-[14.5rem] left-[14.5rem]">
             </div>
             <p class="w-[32.9rem] text-[2rem] leading-[3rem] mt-[2rem]">By clicking Send Message button, you agree to use our “Form ” terms and consent cookie usage in browser.</p>
@@ -136,7 +136,7 @@
 <div class="flex mt-[2rem] w-[100%] justify-end pr-[7.7rem]">
     
     <button href=""
-    class="rounded-[.5rem] text-white text-[1.6rem] hover leadng-[2.4rem] tracking-[8%] w-[19.2rem] h-[6rem] bg-[#2A163F] ml-[6.5rem] "><div class="div">Send Message</button>
+    class="rounded-[.5rem] text-white text-[1.6rem] hover leadng-[2.4rem] tracking-[8%] w-[19.2rem] h-[6rem] bg-[#2A163F] ml-[6.5rem] " type="submit"><div class="div">Send Message</button>
 </div>
 </form>
 
@@ -147,7 +147,7 @@
 </section>
 
 
-<footer class="mt-[20em]">
+<footer class="mt-[20em]" >
     <img src="./img/logobt.png" class="m-auto w-[156.7rem] h-[12.7rem]" alt="">
 
 
