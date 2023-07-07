@@ -19,7 +19,48 @@
 </head>
 
 <body>
+    <header class=" w-[100%] headermb">
+        <div class="flex justify-between w-[100%] mt-[1.3rem] pr-[2.2rem]" >
+         <img src="./img/Logo.png" alt="" class="ml-[2rem] w-[9rem] h-[4.6rem]">
+         <img src="./img/ham.png" alt=""  id="ham" class="w-[2.3rem] mt-[1.2rem] h-[2.3rem]" onclick="Navbar()">
+        </div>
+         <nav id="navbarmb" class="fixed h-[auto] activeNav pb-[5rem] activeNav absolute w-[100%]     mr-[6.5rem]" style="z-index: 100; background-color: rgb(42 22 63 / 90%); position: fixed !important;" >
+             <div class="relative " style="border-radius: 0 2rem 2rem 0;">
+             <div style="border-radius: 0 2rem 2rem 0;" class=" pt-[1.3rem] bg-white flex-col flex justify-start items-center w-[80%]">
 
+            <div class="w-[100%] flex justify-start items-center">
+             <img src="./img/Logo.png" alt="">
+            </div>
+             <div class="flex mb-[5rem] justify-start items-center w-[28.7rem] h-[40px] rounded-[.5rem] bg-[#01040505] border-b-[1px] border-[#09050D99]" style="min-height: 40px; border-bottom: 1px solid rgba(9, 5, 13, 0.60);">
+                 <img src="./img/search.png" alt="" class="w-[1.5rem] h-[1.5rem] mx-[2rem]">
+                 <input type="text" name="" id="" placeholder="Search"
+                     class="w-[80%] text-[1.6rem] text-[#09050D99] bg-transparent border-[none]"
+                     style="outline: none; ">
+             </div>
+             <button href="" 
+                 class="hover mb-[3rem] rounded-[.5rem] text-white text-[1.6rem] leadng-[2.4rem] tracking-[8%] w-[8rem] h-[4rem] bg-[#2A163F]" style="width: 8rem !important; min-height: 4rem !important;">
+             <div class="div">Home</button>
+             <a href="./services.html"
+                 class="rounded-[.5rem] mb-[3rem] text-[#2A163F] text-[1.6rem] leadng-[2.4rem] tracking-[8%] ">Services</a>
+             <a href="./about.html"
+                 class="rounded-[.5rem] mb-[3rem] text-[#2A163F] text-[1.6rem] leadng-[2.4rem] tracking-[8%] ">About</a>
+             <a href="./contact.html"
+                 class="rounded-[.5rem] mb-[3rem] text-[#2A163F] text-[1.6rem] leadng-[2.4rem] tracking-[8%] ">Contact</a>
+            
+                 <a href="./order.html"
+                 class="hover flex justify-center items-center rounded-[.5rem] text-white text-[1.6rem] leadng-[2.4rem] tracking-[8%] w-[17.4rem] h-[6rem] bg-[#2A163F]  " style="width: 11.6rem !important; min-height: 4rem !important;"><div class="div">Order
+                 Now</div></a>
+                 <img src="./img/logoNav.png" class="mt-[13.2rem] mb-[13.3rem]" alt="">
+                 
+             </div>
+             <button onclick="Navbar()" class="absolute top-[50vh] right-[2.4rem] text-[1.3rem] text-white flex justify-center items-center">Back <svg class="NavbarBackArrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M8.91 19.9201L15.43 13.4001C16.2 12.6301 16.2 11.3701 15.43 10.6001L8.91 4.08008" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg></button>
+             </div>
+
+         </nav>
+         
+     </header>
     <section class="section1 flex justify-between">
 
         <div class="container">
@@ -40,50 +81,22 @@
                         class="w-[10rem] h-[5rem] flex justify-center items-center rounded-[.5rem] mr-[4.4rem] text-[#2A163F] text-[1.6rem] leadng-[2.4rem] tracking-[8%] ">About</a>
                     <a href="./contact.html"
                         class="w-[11.8rem] h-[5rem] flex justify-center items-center rounded-[.5rem] mr-[4.4rem] text-[#2A163F] text-[1.6rem] leadng-[2.4rem] tracking-[8%] ">Contact</a>
-                    <div class="flex justify-start items-center w-[48.9rem] h-[5rem] rounded-[.5rem] bg-[#01040505] " style="border-bottom: 1px solid rgba(9, 5, 13, 0.6);">
+                    <div class="relative flex justify-start items-center w-[48.9rem] h-[5rem] rounded-[.5rem] bg-[#01040505] " style="border-bottom: 1px solid rgba(9, 5, 13, 0.6);">
                         <img src="./img/search.png" alt="" class="w-[1.8rem] h-[1.8rem] mx-[2rem]">
-                        <input type="text" name="" id="" placeholder="Search"
-                            class="w-[80%] text-[1.6rem] text-[#09050D99] bg-transparent border-[none]"
-                            style="outline: none; ">
+                        <input type="text" name="" id=""  placeholder="Search"
+                            class=" text-[1.6rem] absolute w-[100%] h-[100%] pl-[5.81rem] text-[#09050D99] bg-transparent border-[none]"
+                            >
                     </div>
                     <a href="./order.html"
-                         class="hover flex justify-center items-center rounded-[.5rem] text-white text-[1.6rem] leadng-[2.4rem] tracking-[8%] w-[17.4rem] h-[6rem] bg-[#2A163F] ml-[6.5rem] "><div class="div">Order
+           
+                         class="hover flex justify-center items-center rounded-[.5rem] text-white text-[1.6rem] leadng-[2.4rem] tracking-[8%] w-[17.4rem] h-[6rem] bg-[#2A163F] ml-[6.5rem] " style="outline: .5px black;"><div class="div">Order
                          Now</div></a>
                 </nav>
                 
             </header>
-            <header class=" w-[100%] headermb">
-               <div class="flex">
-                <img src="./img/Logo.png" alt="" class="ml-[2rem] w-[9rem] h-[4.6rem]">
-                <img src="./img/ham.png" alt="" class="absolute right-[3%] top-[5%]" style="z-index: 101;" id="ham" onclick="Navbar()">
-               </div>
-                <nav id="navbarmb" class="h-[100vh] bg-white activeNav pb-[5rem] activeNav absolute w-[100%]  pt-[10rem] flex-col flex justify-start items-center mt-[2rem] mr-[6.5rem]" style="z-index: 100;" >
-                    <div class="flex mb-[5rem] justify-start items-center w-[48.9rem] h-[5rem] rounded-[.5rem] bg-[#0000001A] border-b-[1px] border-[#09050D99]">
-                        <img src="./img/search.png" alt="" class="w-[1.8rem] h-[1.8rem] mx-[2rem]">
-                        <input type="text" name="" id="" placeholder="Search"
-                            class="w-[80%] text-[1.6rem] text-[#09050D99] bg-transparent border-[none]"
-                            style="outline: none; ">
-                    </div>
-                    <button href="" 
-                        class="hover mb-[5rem] rounded-[.5rem] text-white text-[1.6rem] leadng-[2.4rem] tracking-[8%] w-[10rem] h-[5rem] bg-[#2A163F]">
-                    <div class="div">Home</button>
-                    <a href="./services.html"
-                        class="rounded-[.5rem] mb-[5rem] text-[#2A163F] text-[1.6rem] leadng-[2.4rem] tracking-[8%] ">Services</a>
-                    <a href="./about.html"
-                        class="rounded-[.5rem] mb-[5rem] text-[#2A163F] text-[1.6rem] leadng-[2.4rem] tracking-[8%] ">About</a>
-                    <a href="./contact.html"
-                        class="rounded-[.5rem] mb-[5rem] text-[#2A163F] text-[1.6rem] leadng-[2.4rem] tracking-[8%] ">Contact</a>
-                   
-                        <a href="./order.html"
-                        class="hover flex justify-center items-center rounded-[.5rem] text-white text-[1.6rem] leadng-[2.4rem] tracking-[8%] w-[17.4rem] h-[6rem] bg-[#2A163F]  "><div class="div">Order
-                        Now</div></a>
-                        <img src="./img/logoNav.png" class="mt-[20rem] mb-[10rem]" alt="">
-                </nav>
-                
-            </header>
-            <div class="flex w-[142rem] mt-[7rem] ml-[17.7rem]">
+            <div class="firstrow flex w-[142rem] mt-[7rem] ml-[17.7rem]">
                 <div class="mr-[21.2rem] ml-[1.6rem]">
-                    <h2 class="text-[6rem] leading-[10.5rem]  text-[#09050D] font-[400]"
+                    <h2 class="text-[6rem]  text-[#09050D] font-[400]"
                         style="text-transform: uppercase;">
                         Precision Meets <span class="font-[600]"> <br>Creativity</span>
                     </h2>
@@ -91,13 +104,13 @@
                         Embroiderers, High-Quality Services and Customizable Products for Your Next Marketing Activity
                         or Event!</p>
                 </div>
-                <div>
+                <div >
                     <img src="./img/1.png" class="w-[42.2rem] h-[31.1rem]" alt="">
                 </div>
             </div>
-            <div class="flex w-[142rem]  mt-[10rem] ml-[7.9rem]">
+            <div class="flex w-[142rem]  mt-[4.1rem] ml-[7.9rem]">
                 <div>
-                    <img src="./img/2.png" class="w-[41.6rem] h-[31.1rem]" alt="">
+                    <img src="./img/2.png" class="w-[41.6rem] h-[33.7rem]" alt="">
                 </div>
                 <div class="ml-[10.7rem]">
 
@@ -110,21 +123,21 @@
 
 
             </div>
-            <div class="flex w-[142rem]    relative top-[-10rem] mb-[-10rem] ml-[17.7rem] ">
+            <div class="flex w-[142rem]  justify-start  relative top-[-10rem] mb-[-5.2rem] ml-[8.1rem] ">
 
-                <div class="ml-[10.7rem] flex mr-[23.5rem] items-end">
-       <a href="" class="mr-[6rem] text-[2rem] leading-[4rem] text-[#0C080F] "><img src="./img/fb.png" class="mr-[1rem] w-[4rem] h-[4rem]" alt="">Facebook</a>
-       <a href="" class="mr-[6rem] text-[2rem] leading-[4rem] text-[#0C080F] "><img src="./img/ig.png" class="mr-[1rem] w-[4rem] h-[4rem]" alt=""> Instagram</a>
-       <a href="" class="mr-[6rem] text-[2rem] leading-[4rem] text-[#0C080F] "><img src="./img/yt.png" class="mr-[1rem] w-[4rem] h-[4rem]" alt="">Youtube</a>
+                <div class="ml-[10.7rem] flex items-end">
+       <a href="" class="flex mr-[6rem] text-[2rem] leading-[4rem] text-[#0C080F] "><img src="./img/fb.png" class="mr-[1rem] w-[4rem] h-[4rem]" alt="">Facebook</a>
+       <a href="" class="mr-[6rem] flex text-[2rem] leading-[4rem] text-[#0C080F] "><img src="./img/ig.png" class="w-[4rem] h-[4rem] mr-[1rem] " alt=""> Instagram</a>
+       <a href="" class=" text-[2rem] leading-[4rem] text-[#0C080F] flex"><img src="./img/yt.png" class=" w-[4rem] h-[4rem] mr-[1rem] " alt="">Youtube</a>
 
                 </div>
                 <div>
-                    <img src="./img/3.png" class="w-[41.6rem] h-[31.1rem]" alt="">
+                    <img src="./img/3.png" class=" w-[53.9rem] ml-[25.3rem] h-[31rem]" alt="">
                 </div>
 
             </div>
         </div>
-        <div class="w-[17.7rem] h-[108.1rem] sidebar" style="background: url('./img/side.png'); background-size:cover; background-position: center;">
+        <div class="w-[17.7rem] h-[auto] sidebar" style="background: url('./img/side.png'); background-size:cover; background-position: center;">
 
         </div>
     </section>
@@ -143,7 +156,7 @@
                 We are<span class="font-[600]"> <br>Creatives</span>
             </h2>
             <p class="text-[6rem] leading-[9rem] font-[500] w-[57.5rem] mt-[34.7rem]  text-[#fff]">
-                Looking for killed Professionals to Deliver Exceptional Results? 
+                Looking for Skilled Professionals to Deliver Exceptional Results? 
             </p>
             </div>
             <div>
@@ -173,6 +186,8 @@
     </section>
 
     <!-- section3  -->
+    <div id="section3">
+
 <section class="section3 bg-[#010405]" >
 <div style="background: url('./img/sec3.png'); background-position: center; background-size: cover;"  class="w-[100%] h-[45.5rem]">
 <div class="flex h-[100%] justify-end items-center pr-[16rem] pt-[10rem]">
@@ -217,29 +232,31 @@ Reviews
 </section>
 <section class="section3mb flex-col justify-center items-center">
 <div class="flex">
-    <div class="m-[3rem] heading">
+    <div class="m-[1rem] heading w-[16rem] h-[16rem]" style="background: url('./img/overviewmb.png'); background-position: center; background-size: cover;">
     </div>
-    <div class="m-[3rem] text flex justify-center items-center flex-col">
-<p class="text-[3.5rem] text-[white] font-[400] text-center">Project</p>
-<h2 class="text-[5.5rem] text-[white] font-[600] text-center counting" data-count="10000">10,000+</h2>
-<p class="text-[3.5em] text-[white] font-[400] text-center">Completed</p>
+    <div class="m-[1rem] w-[16rem] h-[16rem] text flex justify-center items-center flex-col">
+<p class="text-[1rem] text-[white] font-[400] text-center">Project</p>
+<h2 class="text-[3rem] text-[white] font-[600] text-center counting" data-count="10000">10,000+</h2>
+<p class="text-[1em] text-[white] font-[400] text-center">Completed</p>
     </div>
 </div>
 <div class="flex">
-    <div class="m-[3rem] text flex justify-center items-center flex-col">
-        <p class="text-[3.5rem] text-[white] font-[400] text-center">Customers</p>
-        <h2 class="text-[5.5rem] text-[white] font-[600] text-center counting" data-count="500">500+</h2>
-        <p class="text-[3.5em] text-[white] font-[400] text-center">Satisfied</p>
+    <div class="m-[1rem] w-[16rem] h-[16rem]  text flex justify-center items-center flex-col">
+        <p class="text-[1rem] text-[white] font-[400] text-center">Customers</p>
+        <h2 class="text-[3rem] text-[white] font-[600] text-center counting" data-count="500">500+</h2>
+        <p class="text-[1em] text-[white] font-[400] text-center">Satisfied</p>
             </div>
-    <div class="m-[3rem] text flex justify-center items-center flex-col">
-<p class="text-[3.5rem] text-[white] font-[400] text-center">Five Star</p>
-<h2 class="text-[5.5rem] text-[white] font-[600] text-center counting" data-count="200">200+</h2>
-<p class="text-[3.5em] text-[white] font-[400] text-center">Reviews</p>
+    <div class="m-[1rem] w-[16rem] h-[16rem]  text flex justify-center items-center flex-col">
+<p class="text-[1rem] text-[white] font-[400] text-center">Five Star</p>
+<h2 class="text-[3rem] text-[white] font-[600] text-center counting" data-count="200">200+</h2>
+<p class="text-[1em] text-[white] font-[400] text-center">Reviews</p>
     </div>
 </div>
 </section>
+</div>
+
 <!-- section4  -->
-<section class="section4 h-[112.6rem] w-[100%] " style="background: url('./img/sec4.png');">
+<section class="section4 h-[112.6rem] w-[100%] " style="background: url('./img/sec4.png');    background-size: cover; background-position: bottom;">
     <div class="top flex m-auto w-[156.7rem] mt-[10rem]">
 <div>
     <p class="text-[2rem] leading-[3rem]  text-[#2A163F]">
@@ -266,7 +283,7 @@ Reviews
 class="hover flex justify-center items-center rounded-[.5rem] text-white text-[1.6rem] leadng-[2.4rem] tracking-[8%] w-[23rem] h-[5rem] bg-[#2A163F] ml-[10rem]"><div class="div">See Our Samples</div></a>
     </div>
 </div>
-</div>
+    </div>
 
 
 
@@ -280,14 +297,52 @@ class="hover flex justify-center items-center rounded-[.5rem] text-white text-[1
     <div class="serv  relative" id="custom" onclick="Services('custom')" style="background: url('./img/serv3.png'); background-position: center; background-size: cover; cursor: pointer;">
     </div>
 </div>
-<div class="services mt-[20rem] servicesmb flex justify-center items-center  flex-col" >
-    <div  class="serv  " onclick="ServicesMb('digitizingmb')" id="digitizingmb" style="background: url('./img/servcies1Mb.png'); background-position: center !important; background-size: cover !important; cursor: pointer;">
-
+<div class="services relative pb-[4.5rem] mt-[2rem] servicesmb flex justify-center items-center  flex-col" >
+    <div  class="serv  w-[38rem] h-[35.1rem]" onclick="ServicesMb('digitizingmb')" id="digitizingmb" style="background: url('./img/servcies1Mb.png'); background-position: center !important; background-size: cover !important; cursor: pointer;">
+        
     </div>
-    <div class="serv my-[6rem] " onclick="ServicesMb('vectormb')" id="vectormb" style="background: url('./img/ser2Mb.png'); background-position: center; background-size: cover; cursor: pointer;">
-
+    <div class="serv my-[1rem] " onclick="ServicesMb('vectormb')" id="vectormb" style="background: url('./img/ser2Mb.png'); background-position: center; background-size: cover; cursor: pointer;">
+        
     </div>
     <div class="serv  " id="custommb" onclick="ServicesMb('custommb')" style="background: url('./img/ser3Mb.png'); background-position: center; background-size: cover; cursor: pointer;">
+    </div>
+    <div class="bg bottom-[0] absolute" style="z-index: -1; height: calc(100% - 50px); width: 100%; background: linear-gradient(225deg, #2A163F 0%, #09050D 100%);" >
+        <svg class="absolute top-[-1.8rem] right-[0]" xmlns="http://www.w3.org/2000/svg" width="69" height="85" viewBox="0 0 69 85" fill="none">
+            <g opacity="0.2" filter="url(#filter0_d_211_454)">
+              <path d="M51.6857 37.4841C53.452 42.9638 53.2481 49.051 51.1189 54.4064C48.9897 59.7618 45.1097 63.9469 40.3323 66.0409C35.5549 68.1349 30.2716 67.9663 25.6446 65.5723C21.0176 63.1782 17.4259 58.7548 15.6596 53.2751L16.1996 53.0384C17.9129 58.3538 21.397 62.6446 25.8853 64.9669C30.3736 67.2892 35.4985 67.4527 40.1327 65.4215C44.7668 63.3902 48.5305 59.3306 50.5959 54.1358C52.6612 48.9409 52.859 43.0363 51.1457 37.7208L51.6857 37.4841Z" fill="white"/>
+              <path d="M49.058 12.1891C53.8601 14.16 57.7942 18.2748 59.9947 23.6282C62.1952 28.9816 62.4819 35.1351 60.7918 40.735C59.1016 46.335 55.5731 50.9226 50.9824 53.4887C46.3916 56.0548 41.1148 56.3891 36.3127 54.4182L36.5037 53.7852C41.1619 55.697 46.2805 55.3727 50.7336 52.8835C55.1867 50.3944 58.6095 45.9443 60.2489 40.5122C61.8884 35.0802 61.6103 29.1112 59.4757 23.9183C57.3412 18.7254 53.5251 14.7339 48.8669 12.8221L49.058 12.1891Z" fill="white"/>
+            </g>
+            <defs>
+              <filter id="filter0_d_211_454" x="11.6596" y="12.189" width="54.2209" height="63.3091" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                <feOffset dy="4"/>
+                <feGaussianBlur stdDeviation="2"/>
+                <feComposite in2="hardAlpha" operator="out"/>
+                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.16 0"/>
+                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_211_454"/>
+                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_211_454" result="shape"/>
+              </filter>
+            </defs>
+          </svg>
+          <svg class="absolute top-[11.9rem] left-[0]" xmlns="http://www.w3.org/2000/svg" width="62" height="73" viewBox="0 0 62 73" fill="none">
+            <g opacity="0.2" filter="url(#filter0_d_211_436)">
+              <path d="M40.3612 52.1111C36.1724 55.8479 30.861 57.4589 25.5955 56.5896C20.33 55.7204 15.5416 52.4422 12.2837 47.4761C9.02588 42.5101 7.56545 36.263 8.2237 30.1091C8.88195 23.9552 11.605 18.3987 15.7937 14.6619L16.162 15.2233C12.0988 18.848 9.45743 24.238 8.81891 30.2073C8.18039 36.1767 9.59704 42.2365 12.7572 47.0537C15.9174 51.8709 20.5622 55.0509 25.6699 55.894C30.7776 56.7372 35.9297 55.1745 39.9929 51.5497L40.3612 52.1111Z" fill="white"/>
+              <path d="M57.0123 41.9856C56.7722 48.2162 54.4194 54.0803 50.4716 58.288C46.5237 62.4957 41.3042 64.7022 35.9613 64.4222C30.6183 64.1422 25.5896 61.3985 21.9814 56.7948C18.3731 52.1911 16.481 46.1045 16.7211 39.8739L17.325 39.9055C17.0921 45.9493 18.9276 51.8535 22.4276 56.3192C25.9277 60.7849 30.8056 63.4463 35.9884 63.7179C41.1712 63.9895 46.2342 61.8492 50.0637 57.7676C53.8932 53.6861 56.1754 47.9977 56.4084 41.9539L57.0123 41.9856Z" fill="white"/>
+            </g>
+            <defs>
+              <filter id="filter0_d_211_436" x="4.06909" y="14.6621" width="56.9432" height="57.7837" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                <feOffset dy="4"/>
+                <feGaussianBlur stdDeviation="2"/>
+                <feComposite in2="hardAlpha" operator="out"/>
+                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.16 0"/>
+                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_211_436"/>
+                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_211_436" result="shape"/>
+              </filter>
+            </defs>
+          </svg>
     </div>
 </div>
 
@@ -369,9 +424,9 @@ class="hover flex justify-center items-center rounded-[.5rem] text-white text-[1
             <p class="text-[1.8rem] leading-[2.7rem] flex items-center mt-[2rem] text-[#010405]"><img src="./img/mail.png" class="w-[3rem] mr-[3rem]" alt=""> writeyouremail@gmail.com</p>
         </div>
         <div class="flex">
-            <a href=""><img src="./img/fb.png" class="w-[4rem]" alt=""></a>
-            <a href=""><img src="./img/ig.png" class="mx-[12rem] w-[4rem]" alt=""></a>
-            <a href=""><img src="./img/yt.png" class="w-[4rem]" alt=""></a>
+            <a href="" class="text-[1.4rem] flex flex-col items-center"><img src="./img/fb.png" class="mb-[.7rem] w-[4rem]" alt="">Facebook</a>
+            <a href="" class="mx-[12rem] text-[1.4rem] flex flex-col items-center"><img src="./img/ig.png" class="mb-[.7rem] w-[4rem]" alt="">Instagram</a>
+            <a href="" class="text-[1.4rem] flex flex-col items-center"><img src="./img/yt.png" class="mb-[.7rem] w-[4rem]" alt="">Youtube</a>
         </div>
         <div class="flex">
             <div class="flex flex-col items-center justify-center">
@@ -400,12 +455,12 @@ class="hover flex justify-center items-center rounded-[.5rem] text-white text-[1
 
         <form action="" class="flex flex-col justify-center items-center">
             <div class="flex ">
-                <input class="  flex text-[1.6rem] text-[#09050D99]  border-[none] justify-start items-center pl-[3rem] w-[33.2rem] h-[5rem] rounded-[.5rem] bg-[#0000001A]" placeholder="Full Name">
-                <input class="ml-[4rem] flex text-[1.6rem] text-[#09050D99]  border-[none] justify-start items-center pl-[3rem] w-[33.2rem] h-[5rem] rounded-[.5rem] bg-[#0000001A]" placeholder="Phone Number (Optional)" >
+                <input style="border-bottom: 1px solid rgba(9, 5, 13, 0.60);" class="  flex text-[1.6rem] text-[#09050D99]  border-[none] justify-start items-center pl-[3rem] w-[33.2rem] h-[5rem] rounded-[.5rem] bg-[#0000001A]" placeholder="Full Name">
+                <input style="border-bottom: 1px solid rgba(9, 5, 13, 0.60);" class="ml-[4rem] flex text-[1.6rem] text-[#09050D99]  border-[none] justify-start items-center pl-[3rem] w-[33.2rem] h-[5rem] rounded-[.5rem] bg-[#0000001A]" placeholder="Phone Number (Optional)" >
                    
             </div>
             
-            <input class=" mt-[2rem] mb-[2.5rem] flex justify-start items-center pl-[3rem] w-[70.4rem] h-[5rem] rounded-[.5rem] bg-[#0000001A] text-[1.6rem] text-[#09050D99] border-[none]" placeholder="Enter Email Address">
+            <input style="border-bottom: 1px solid rgba(9, 5, 13, 0.60);" class=" mt-[2rem] mb-[2.5rem] flex justify-start items-center pl-[3rem] w-[70.4rem] h-[5rem] rounded-[.5rem] bg-[#0000001A] text-[1.6rem] text-[#09050D99] border-[none]" placeholder="Enter Email Address">
                    
                
             <button href=""
@@ -484,29 +539,34 @@ if(window.innerWidth > 565){
 const ServicesMb = (id)=>{
       document.getElementById("digitizingmb").style.background = "url('./img/servcies1Mb.png')"
 
+      document.getElementById("vectormb").style.backgroundSize = "cover"
+      document.getElementById("custommb").style.backgroundSize = "cover"
+      document.getElementById("digitizingmb").style.backgroundSize = "cover" 
 
        if(id == "digitizingmb"){
-        document.getElementById("digitizingmb").style.height = "85rem" 
-        document.getElementById("vectormb").style.background = "url('./img/ser2Mb.png')"
-        document.getElementById("custommb").style.background = "url('./img/ser3Mb.png')"
-        document.getElementById("vectormb").style.height = "9rem"
-        document.getElementById("custommb").style.height = "9rem"
+        document.getElementById("digitizingmb").style.height = "35.1rem" 
+        document.getElementById("vectormb").style.backgroundImage = "url('./img/ser2Mb.png')"
+        document.getElementById("custommb").style.backgroundImage = "url('./img/ser3Mb.png')"
+        document.getElementById("vectormb").style.height = "4.18rem"
+        document.getElementById("custommb").style.height = "4.18rem"
     }else if(id == "vectormb"){
-        document.getElementById("vectormb").style.background = "url('./img/services2Mb.png')"
-        document.getElementById("vectormb").style.height = "85rem" 
-        document.getElementById("digitizingmb").style.background = "url('./img/ser1Mb.png')"
-        document.getElementById("custommb").style.background = "url('./img/ser3Mb.png')"
-        document.getElementById("digitizingmb").style.height = "9rem"
-        document.getElementById("custommb").style.height = "9rem"
+        document.getElementById("vectormb").style.backgroundImage = "url('./img/services2Mb.png')"
+        document.getElementById("vectormb").style.height = "35.1rem" 
+        document.getElementById("digitizingmb").style.backgroundImage = "url('./img/ser1Mb.png')"
+        document.getElementById("custommb").style.backgroundImage = "url('./img/ser3Mb.png')"
+        document.getElementById("digitizingmb").style.height = "4.18rem"
+        document.getElementById("custommb").style.height = "4.18rem"
     }else{
-        document.getElementById("custommb").style.background = "url('./img/services3Mb.png')"
-        document.getElementById("custommb").style.height = "85rem" 
-        document.getElementById("digitizingmb").style.background = "url('./img/ser1Mb.png')"
-        document.getElementById("vectormb").style.background = "url('./img/ser2Mb.png')"
-        document.getElementById("digitizingmb").style.height = "9rem"
-        document.getElementById("vectormb").style.height = "9rem"
+        document.getElementById("custommb").style.backgroundImage = "url('./img/services3Mb.png')"
+        document.getElementById("custommb").style.height = "35.1rem" 
+        document.getElementById("digitizingmb").style.backgroundImage = "url('./img/ser1Mb.png')"
+        document.getElementById("vectormb").style.backgroundImage = "url('./img/ser2Mb.png')"
+        document.getElementById("digitizingmb").style.height = "4.18rem"
+        document.getElementById("vectormb").style.height = "4.18rem"
     }
-
+    document.getElementById("vectormb").style.backgroundSize = "cover"
+      document.getElementById("custommb").style.backgroundSize = "cover"
+      document.getElementById("digitizingmb").style.backgroundSize = "cover" 
 
 }
 let nav = false
@@ -515,6 +575,12 @@ let nav = false
 const Navbar = ()=>{
     document.getElementById("navbarmb").classList.toggle("activeNav")
     console.log(document.getElementById("navbarmb").classList)
+    if(document.getElementById("navbarmb").classList.contains("activeNav")){
+        document.querySelector(".section1").style.filter = "blur(0px)"
+    }else{
+        
+        document.querySelector(".section1").style.filter = "blur(5px)"
+    }
 }
  const swiper = new Swiper('.swiper', {
   // Optional parameters
@@ -548,6 +614,15 @@ ham.addEventListener("click",  ()=>{
 <script>
     // number count for stats, using jQuery animate
 
+
+
+    const targetElement = document.querySelector('#section3');
+
+    const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      // Run the calculateSum function when the target element is in the viewport
+     
 $('.counting').each(function() {
   var $this = $(this),
       countTo = $this.attr('data-count');
@@ -572,6 +647,27 @@ $('.counting').each(function() {
   
 
 });
+
+      // Stop observing once the target element is in the viewport
+      observer.unobserve(entry.target);
+    }
+  });
+});
+
+observer.observe(targetElement);
+
+function handleWindowResize() {
+  // Check if the target element is in the viewport after the window is resized
+  const isIntersecting = targetElement.getBoundingClientRect().top < window.innerHeight;
+  if (isIntersecting) {
+    // const result = calculateSum(3, 5);
+    // targetElement.textContent = result; // Display the result within the target element
+  }
+}
+
+// Attach the handleWindowResize function to the window resize event
+window.addEventListener('resize', handleWindowResize);
+
 </script>
 </body>
 
