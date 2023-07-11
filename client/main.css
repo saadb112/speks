@@ -344,8 +344,51 @@ background-color: black !important;
 .section4 .ml-\[4\.9rem\] .arrow{
     flex-direction: row-reverse;
 }
-
-
+.Samples{
+    display: none !important;
+}
+.sec2Sample .w-\[156\.7rem\]{
+    flex-direction: column;
+    margin-top: 6rem;
+    width: 57rem;
+    margin-bottom: 3rem;
+}
+.sec2Sample .w-\[156\.7rem\] .text-\[8rem\]{
+    font-size: 3rem;
+    line-height: normal;
+}
+.sec2Sample .w-\[156\.7rem\] .text-\[3rem\]{
+    font-size: 1.8rem;
+    line-height: normal;
+}
+.sec2Sample .w-\[156\.7rem\] .ml-\[18rem\]{
+    margin-left: 0;
+}
+.Samplebtn {
+display: none;
+}
+.SamplebtnMb  {
+    display: flex !important;
+    margin-bottom: 6rem !important;
+    margin-top: 6rem !important;
+}
+.samplesMb {
+    justify-content: flex-start !important;
+    margin: auto !important;
+    width: 39rem !important;
+    display: flex !important;
+}
+.samplesMb img{
+    width: 10rem;
+    border-radius: 1.5rem;
+    margin: 1.5rem;
+    height: 10rem;
+}
+.sec2Sample .w-\[156\.7rem\] .text-\[2rem\]{
+    font-size: 1.3rem;
+    line-height: normal;
+    width: 100%;
+}
 footer .w-\[156\.6rem\]{
     flex-direction: column;
     width: 100%;
@@ -476,6 +519,56 @@ footer{
 .section4 .ml-\[4\.9rem\] .mt-\[2rem\] a{
     width: 15.3rem !important  ;
 }
+.modal img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+.digbutton{
+    width: auto !important;
+    font-size: 1.3rem;
+}
+.Samplebtn {
+    display: none !important;
+}
+.section4 .w-\[156\.7rem\]{
+    flex-direction: column;
+    width: 57rem;
+}
+.section4 .w-\[156\.7rem\] .ml-\[17\.4rem\]{
+    margin-left: 0;
+}
+.aboutSec4 {
+    position: relative;
+}
+.aboutSec4 .text-\[3rem\]{
+    font-size: 1.5rem;
+    line-height: normal;
+    margin-bottom: 15rem;
+}
+.aboutSec4 .text-\[2rem\]{
+    font-size: 1.3rem;
+    line-height: normal;
+    width: 100%;
+}
+.aboutSec4 .text-\[4\.5rem\]{
+    font-size: 2rem;
+    line-height: normal;
+    position: absolute;
+    width: 82%;
+    top: 16rem;
+}
+.aboutSec4 .ml-\[15\.4rem\]{
+    margin-left: 0;
+}
+.aboutSec4 .ml-\[15\.4rem\] .text-\[3rem\]{
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+}
+.aboutSec4 .top:nth-child(2){
+    margin-top: 0;
+}
 }
 
 
@@ -545,6 +638,17 @@ footer{
     .section4 .w-\[156\.7rem\]{
         width: 38rem;
     }
+    .sec2Sample .w-\[156\.7rem\]{
+        width: 38rem;
+    }
+    .aboutSec4 .text-\[4\.5rem\]{
+        width: 70%;
+    }
+    .aboutSec4 .text-\[3rem\]{
+        margin-bottom: 20rem;
+    }
+
+    
 }
 @media screen and (max-width : 475px) {
     .section1 .firstrow div:nth-child(2){
